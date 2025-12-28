@@ -4,7 +4,7 @@ struct Gift {
     surface_area: i32,
 }
 
-pub fn part1(lines: &Vec<String>) {
+pub fn run(lines: &Vec<String>) {
     let mut gifts: Vec<Gift> = Vec::new();
 
     for line in lines {
